@@ -1,0 +1,65 @@
+body
+{
+    background-image: url(bilder/OIP.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(48, 45, 41);
+    z-index: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+div
+{
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    opacity: initial;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.column
+{
+    
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.month
+{
+    background-color: red; 
+    width: 100px; 
+    height: 40px;
+}
+.activity
+{
+    background-color: lime; 
+    width: 200px; 
+    height: 20px;
+    margin: 10px;
+}
+#lowz
+{
+    z-index: 1;
+    position: absolute;
+}
+#highz
+{
+    z-index: 3;
+    position: relative;
+}
